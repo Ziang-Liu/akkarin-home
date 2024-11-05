@@ -12,7 +12,7 @@
     <div :class="store.backgroundShow ? 'gray hidden' : 'gray'" />
     <Transition mode="out-in" name="fade">
       <a
-        v-if="store.backgroundShow && store.coverType !== '3'"
+        v-if="store.backgroundShow && store.coverType != '3'"
         :href="bgUrl"
         class="down"
         target="_blank"
@@ -38,13 +38,13 @@ const bgRandom = Math.floor(Math.random() * 5 + 1);
 
 // 更换壁纸链接
 const changeBg = (type) => {
-  if (type === 0) {
+  if (type == 0) {
     bgUrl.value = `/images/background${bgRandom}.jpg`;
-  } else if (type === 1) {
+  } else if (type == 1) {
     bgUrl.value = "https://api.dujin.org/bing/1920.php";
-  } else if (type === 2) {
+  } else if (type == 2) {
     bgUrl.value = "https://api.vvhan.com/api/wallpaper/views";
-  } else if (type === 3) {
+  } else if (type == 3) {
     bgUrl.value = "https://api.vvhan.com/api/wallpaper/acg";
   }
 };

@@ -21,10 +21,10 @@ export const mainStore = defineStore("main", {
       playerArtist: null, // 当前播放歌手名
       playerLrc: "歌词加载中", // 当前播放歌词
       playerLrcShow: true, // 是否显示底栏歌词
-      footerBlur: false, // 底栏模糊
+      footerBlur: true, // 底栏模糊
       playerAutoplay: false, // 是否自动播放
       playerLoop: "all", // 循环播放 "all", "one", "none"
-      playerOrder: "random", // 循环顺序 "list", "random"
+      playerOrder: "list", // 循环顺序 "list", "random"
     };
   },
   getters: {
@@ -55,7 +55,11 @@ export const mainStore = defineStore("main", {
     },
     // 更改播放状态
     setPlayerState(value) {
-      this.playerState = !value;
+      if (value) {
+        this.playerState = false;
+      } else {
+        this.playerState = true;
+      }
     },
     // 更改歌词
     setPlayerLrc(value) {
