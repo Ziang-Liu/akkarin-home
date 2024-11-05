@@ -2,37 +2,37 @@
   {
     "name": "Github",
     "icon": "/images/icon/github.png",
-    "tip": "去 Github 看看",
-    "url": "https://github.com/imsyy"
+    "tip": "这是作者悄悄留的",
+    "url": "https://github.com/Ziang-Liu"
   },
   {
     "name": "BiliBili",
     "icon": "/images/icon/bilibili.png",
-    "tip": "(゜-゜)つロ 干杯 ~",
-    "url": "https://space.bilibili.com/98544142"
+    "tip": "S01E05 ED的完美再译",
+    "url": "https://www.bilibili.com/video/BV1Rx411c7Vb"
   },
   {
-    "name": "QQ",
-    "icon": "/images/icon/qq.png",
-    "tip": "有什么事吗",
-    "url": "https://res.abeim.cn/api/qq/?qq=1539250352"
-  },
-  {
-    "name": "Email",
-    "icon": "/images/icon/email.png",
-    "tip": "来封 Email ~",
-    "url": "mailto:one@imsyy.top"
-  },
-  {
-    "name": "Twitter",
+    "name": "X(Twitter)",
     "icon": "/images/icon/twitter.png",
-    "tip": "你懂的 ~",
-    "url": "https://twitter.com/iimmsyy"
+    "tip": "なもり老师官推",
+    "url": "https://x.com/_namori_"
   },
   {
-    "name": "Telegram",
-    "icon": "/images/icon/telegram.png",
-    "tip": "你懂的 ~",
-    "url": "https://t.me/bottom_user"
+    "name": "Pixiv",
+    "icon": "/images/icon/pixiv.png",
+    "tip": "#ゆるゆり 作品页",
+    "url": "https://www.pixiv.net/tags/%E3%82%86%E3%82%8B%E3%82%86%E3%82%8A/artworks"
+  },
+  {
+    "name": "Bangumi",
+    "icon": "/images/icon/bangumi.png",
+    "tip": "404界面，谨慎进入（）",
+    "url": "https://bgm.tv/character/13004"
+  },
+  {
+    "name": "百合姬",
+    "icon": "/images/icon/link.png",
+    "tip": "Comic百合姬",
+    "url": "https://www.ichijinsha.co.jp/yurihime/title/%e3%81%aa%e3%82%82%e3%82%8a/%e3%82%86%e3%82%8b%e3%82%86%e3%82%8a/"
   }
 ]
