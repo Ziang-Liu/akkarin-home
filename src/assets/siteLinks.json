@@ -1,32 +1,47 @@
 [
   {
-    "icon": "Compass",
+    "icon": "CalendarAltRegular",
     "name": "每日放送",
     "link": "https://bgm.tv/calendar"
   },
   {
     "icon": "CompactDisc",
-    "name": "1st专辑",
+    "name": "1ST专辑",
     "link": "https://music.163.com/album/2512603/"
   },
   {
     "icon": "CompactDisc",
-    "name": "2nd专辑",
+    "name": "2ND专辑",
     "link": "https://music.163.com/album/2875038/"
   },
   {
-    "icon": "Book",
+    "icon": "Twitter",
     "name": "漫画官推",
     "link": "https://x.com/yryr_yhc"
   },
   {
-    "icon": "Book",
+    "icon": "Twitter",
     "name": "动画官推",
     "link": "https://x.com/anime_yuruyuri"
   },
   {
-    "icon": "Book",
+    "icon": "Link",
     "name": "动画官网",
-    "link": "http://yuruyuri.com/"
+    "link": "https://yuruyuri.com/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点检测",
+    "link": "https://status.akkar.in/"
+  },
+  {
+    "icon": "Heart",
+    "name": "AI助理",
+    "link": "https://ai.akkar.in/#/"
+  },
+  {
+    "icon": "Lock",
+    "name": "密码管理",
+    "link": "https://vault.akkar.in/"
   }
 ]

@@ -47,7 +47,7 @@ const props = defineProps({
   // 默认音量
   volume: {
     type: Number,
-    default: 0.7,
+    default: 0.3,
     validator: (value) => {
       return value >= 0 && value <= 1;
     },
